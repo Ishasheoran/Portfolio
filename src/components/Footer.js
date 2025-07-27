@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
   // AiOutlineTwitter,
-  AiFillInstagram,
+  // AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -14,16 +14,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Adarsh</h3>
+          <h3>Designed and Developed by Isha</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} AD</h3>
+          <h3>Copyright © {year} IS</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/adarshh-h"
+                href="https://github.com/ishasheoran"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
             </li> */}
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/adarsh-kumar-gupta-036bb2249/"
+                href="https://www.linkedin.com/in/isha-sheoran-8a391026b/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -51,7 +51,7 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://www.instagram.com/adarshh___h?igsh=ZTM4OXU0MGJ5OXkx"
                 style={{ color: "white" }}
@@ -60,7 +60,7 @@ function Footer() {
               >
                 <AiFillInstagram />
               </a>
-            </li>
+            </li> */}
           </ul>
         </Col>
       </Row>

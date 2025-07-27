@@ -4,42 +4,42 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import { motion } from "framer-motion";
 
-import lms from "../../Assets/Projects/lms.png";
-import vote from "../../Assets/Projects/vote.png";
-import bank from "../../Assets/Projects/bank.png";
-import blg from "../../Assets/Projects/1.png";
+import lms from "../../Assets/Projects/Sms.png";
+import vote from "../../Assets/Projects/Land.png";
+import bank from "../../Assets/Projects/Solar.png";
+import blg from "../../Assets/Projects/Job.png";
 
 const projects = [
   {
     imgPath: lms,
-    title: "College Library System",
-    description: "A comprehensive MERN-stack application developed for my college department, currently in active use. The system streamlines library operations with secure authentication, role-based access, and an intuitive admin panel.",
-    ghLink: "https://github.com/adarshh-h/HNB-Library-System.git",
-    demoLink: "https://hnb-library-system.vercel.app/",
+    title: "University Management System",
+    description: "A full-stack web application for managing student records, featuring user authentication, CRUD operations, and a responsive UI.",
+    demoLink: "https://student-management-system-chi-jet.vercel.app/",
     techStack: ['MongoDB', 'Express', 'React', 'Node.js']
   },
-  {
-    imgPath: vote,
-    title: "Share Your Vote",
-    description: "A secure online voting platform built with the MERN stack. Includes admin dashboard for candidate management and real-time result tracking with robust security measures.",
-    ghLink: "https://github.com/adarshh-h/Online-Voting-System",
-    demoLink: "https://online-voting-system-sepia.vercel.app/",
-    techStack: ['MongoDB', 'Express', 'React', 'Node.js']
-  },
+  
   {
     imgPath: blg,
-    title: "BlogApp",
-    description: "A modern blogging platform using the MERN stack. Features dark mode, responsive design, and full CRUD functionality for posts with user authentication.",
-    ghLink: "https://github.com/adarshh-h/BlogApp-backend.git",
-    demoLink: "https://profound-sprinkles-22fdf2.netlify.app/",
+    title: "Job Tracker",
+    description: "A platform with filtering, job listings, and application tracking. Developed using React, Redux, and Tailwind CSS for a seamless user experience",
+    ghLink: "https://github.com/Ishasheoran/job_frontend",
+    demoLink: "https://job-frontend-plum.vercel.app/",
     techStack: ['MongoDB', 'Express', 'React', 'Node.js']
+  },{
+    imgPath: vote,
+    title: "Ecommerce Landing Page",
+    description: "A sleek, responsive landing page designed for a SaaS product, with animations and a clean layout.",
+    ghLink: "https://github.com/Ishasheoran/Landingpage",
+    demoLink: "https://ishasheoran.github.io/Landingpage",
+    techStack: ['HTML', 'CSS']
   },
   {
     imgPath: bank,
-    title: "Bank Management System",
-    description: "C++ banking system utilizing OOP principles and file streams for data storage. Supports account management, transactions, and balance inquiries through CLI.",
-    ghLink: "https://github.com/adarshh-h/Bank-Management-System.git",
-    techStack: ['C++', 'OOP']
+    title: "Solar Company Website",
+    description: "An interactive landing page promoting solar energy solutions, featuring dynamic UI elements and smooth scrolling.",
+    ghLink: "https://github.com/Ishasheoran/Solar",
+      demoLink: "https://ishasheoran.github.io/Solar/",
+    techStack: ['HTML', 'CSS','JavaScript']
   }
 ];
 

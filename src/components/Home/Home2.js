@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/Iha.JPG";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   // AiOutlineTwitter,
-  AiFillInstagram,
+  // AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,12 +19,18 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming, and I have learned quite a bit along the way, I think… 🤷‍♂️
+              I’m a passionate developer with expertise in building responsive, user-friendly web applications. My strength lies in crafting clean, efficient code with modern technologies like React, JavaScript, Tailwind CSS, and Node.js. I love turning ideas into interactive experiences while prioritizing performance and accessibility. 🤷‍♂️
               <br />
-              <br />I am fluent in classic languages like
-              <i>
-                <b className="purple"> C++ and JavaScript. </b>
-              </i>
+              <br />🔹 What I Bring to the Table:<br />
+
+🚀 Full-stack proficiency with a focus on frontend development.<br />
+
+🎨 Eye for design and detail, ensuring intuitive user interfaces.<br />
+
+🔄 Experience with REST APIs, state management, and databases.<br />
+
+📱 Commitment to responsive and cross-browser compatibility.<br />
+              
               <br />
               <br />
               My fields of interest include building new&nbsp;
@@ -33,17 +39,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I apply my passion for developing products using <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  modern JavaScript libraries and frameworks
-                </b>
-              </i>
-              &nbsp;such as
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+             When I’m not coding, I enjoy contributing to open-source projects, learning new frameworks, and sharing tech insights. Let’s build something amazing together!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -61,7 +57,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/adarshh-h"
+                  href="https://github.com/ishasheoran"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -81,7 +77,7 @@ function Home2() {
               </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/adarsh-kumar-gupta-036bb2249/"
+                  href="https://www.linkedin.com/in/isha-sheoran-8a391026b/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -89,7 +85,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/adarshh___h?igsh=ZTM4OXU0MGJ5OXkx"
                   target="_blank"
@@ -98,7 +94,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>
