@@ -8,23 +8,31 @@ import lms from "../../Assets/Projects/Sms.png";
 import vote from "../../Assets/Projects/Land.png";
 import bank from "../../Assets/Projects/Solar.png";
 import blg from "../../Assets/Projects/Job.png";
-
+import Earth from "../../Assets/Projects/Earth.png"
 const projects = [
   {
     imgPath: lms,
     title: "University Management System",
     description: "A full-stack web application for managing student records, featuring user authentication, CRUD operations, and a responsive UI.",
     demoLink: "https://student-management-system-chi-jet.vercel.app/",
-    techStack: ['MongoDB', 'Express', 'React', 'Node.js']
+     ghLink: "https://github.com/Ishasheoran/Student-Management-System",
+    techStack: ['MongoDB', 'Express', 'React.js', 'Node.js']
   },
-  
+  {
+    imgPath: Earth,
+    title: "Earthquake Visualizer",
+    description: "A full-stack web application for managing student records, featuring user authentication, CRUD operations, and a responsive UI.",
+    demoLink: "https://earthquake-visualizer-1nc5.vercel.app/",
+    ghLink: "https://github.com/Ishasheoran/Earthquake-visualizer",
+    techStack: [ 'React.js', 'HTML','CSS']
+  },
   {
     imgPath: blg,
     title: "Job Tracker",
     description: "A platform with filtering, job listings, and application tracking. Developed using React, Redux, and Tailwind CSS for a seamless user experience",
     ghLink: "https://github.com/Ishasheoran/job_frontend",
     demoLink: "https://job-frontend-plum.vercel.app/",
-    techStack: ['MongoDB', 'Express', 'React', 'Node.js']
+    techStack: ['MongoDB', 'Express', 'React.js', 'Node.js']
   },{
     imgPath: vote,
     title: "Ecommerce Landing Page",
