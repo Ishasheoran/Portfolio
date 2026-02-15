@@ -9,6 +9,7 @@ import vote from "../../Assets/Projects/Land.png";
 import bank from "../../Assets/Projects/Solar.png";
 import blg from "../../Assets/Projects/Job.png";
 import Earth from "../../Assets/Projects/Earth.png"
+import News from "../../Assets/Projects/News.png"
 const projects = [
   {
     imgPath: lms,
@@ -48,6 +49,14 @@ const projects = [
     ghLink: "https://github.com/Ishasheoran/Solar",
       demoLink: "https://ishasheoran.github.io/Solar/",
     techStack: ['HTML', 'CSS','JavaScript']
+  }
+  ,{
+     imgPath: News,
+    title: "News Aggregator Web App",
+    description: "A responsive news aggregator web application that fetches and displays the latest headlines and allows users to search news by keywords using a public news API.",
+    ghLink: "https://github.com/Ishasheoran/news-app",
+      // demoLink: "https://ishasheoran.github.io/Solar/",
+    techStack: ['HTML', 'CSS','JavaScript','Bootstrap']
   }
 ];
 

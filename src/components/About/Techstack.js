@@ -7,7 +7,7 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
-  DiJava,
+  DiJava, DiBootstrap
 } from "react-icons/di";
 import {
   SiNextdotjs,
@@ -22,8 +22,9 @@ const techStack = [
   { icon: <DiMongodb />, name: "MongoDB" },
   { icon: <SiPostgresql />, name: "PostgreSQL" },
   { icon: <DiGit />, name: "Git" },
-  { icon: <SiNextdotjs />, name: "Next.js" },
-  { icon: <DiJava />, name: "Java" },
+  {icon: <DiBootstrap />, name:"Bootstrap"}
+  // { icon: <SiNextdotjs />, name: "Next.js" },
+  // { icon: <DiJava />, name: "Java" },
 ];
 
 function Techstack() {
