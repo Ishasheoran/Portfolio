@@ -7,11 +7,10 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
-  DiJava, DiBootstrap
+  DiBootstrap
 } from "react-icons/di";
 import {
-  SiNextdotjs,
-  SiPostgresql,
+    SiPostgresql,
 } from "react-icons/si";
 
 const techStack = [
